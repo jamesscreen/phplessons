@@ -6,4 +6,5 @@ for($i = 1; $i <= $n; $i++){
 	echo  "$i <sup>$i</sup> = ".$kvr."<br/>";
 }
 echo "Сумма всех чисел = ".$sum;
+$sum=0;
 ?>
