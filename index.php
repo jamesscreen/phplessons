@@ -17,44 +17,11 @@
 	</aside>
 	<article>
 		<h2>Урок первый. Квадраты и суммы чисел</h2>
-		<p>Дано натуральное число n. Вычислить: 1<sup>1</sup> + 2<sup>2</sup> + 3<sup>3</sup>.. + n<sup>n</sup>. Вывести на экран квадраты этих чисел и сумму квадратов этих чисел в понятной форме.</p>
-
-		<h3>PHP-код задачи:</h3>
 		<p>
-			&lt;?php<br>
-			$n = 3;<br>
-			for($i = 1; $i &lt;= $n; $i++){<br>
-				$kvr = pow($i, $i);<br>
-				$sum += $kvr;<br>
-				echo  "$i &lt;sup&gt;$i&lt;/sup&gt; = ".$kvr."&lt;br/&gt;";<br>
-			}<br>
-			echo "Сумма всех чисел = ".$sum;<br>
-			?&gt;<br>
+			<a href='./code/001sum/index2.php'>Урок первый. Квадраты и суммы чисел</a>
 		</p>
 
-		<h3>Выполнение кода:</h3>
-		<p>
-			<?php
-				$n = 3;
-				for($i = 1; $i <= $n; $i++){
-					$kvr = pow($i, $i);
-					$sum += $kvr;
-					echo  "$i <sup>$i</sup> = ".$kvr."<br/>";
-				}
-				echo "Сумма всех чисел = ".$sum;
-				$sum=0;
-			?>
-		</p>
-		<h3>Подключаем внешний php-код командой include</h3>
-		<p>
-			<?php
-				include'/code/001sum/sum.php';
-			?>
-		</p>
-		<!--
-		// подключаем /code/001sum/sum.php
-		include($_SERVER['DOCUMENT_ROOT'].'/code/001sum/sum.php');
-		-->
+		
 	</article>
 	
 	<!-- 
