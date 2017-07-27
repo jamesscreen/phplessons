@@ -3,7 +3,7 @@
 <head>
  	<meta charset="utf-8">
  	<meta name="description" content="PHP training">
- 	<meta name="autor" content="JamesScreen">
+ 	<meta name="author" content="JamesScreen">
 </head>
 <body>
  	<header> <!-- Шапка Сайта -->
@@ -59,8 +59,6 @@
  		Футер Сайта. Здесь располагается Имя Автора, 
  		Дата документа, контактная и правовая информация.
  	-->
- 	<footer>
- 		&#169; JamesScreen, 2017.
- 	</footer>
+ 	<footer>&#169; JamesScreen, 2017</footer>
 </body>
 </html> 
